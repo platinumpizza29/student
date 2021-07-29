@@ -1,6 +1,6 @@
 import React from "react";
 import "./loginPage.css";
-import { Card, CardContent, Typography } from "@material-ui/core";
+import { Card, CardContent, Typography, TextField } from "@material-ui/core";
 
 function loginPage() {
   return (
@@ -13,15 +13,18 @@ function loginPage() {
                 <div class="row">
                   <div className="loginForm">
                     <h1>Student Login</h1>
+                    <form>
+                      <TextField></TextField>
+                    </form>
                   </div>
                 </div>
                 <div class="col">
                   <img
                     src="./abstractBackground.jpg"
-                    class="img-fluid"
                     alt="..."
-                    max-height="80vh"
-                    max-width="100%"
+                    style={{
+                      objectFit: "cover",
+                    }}
                   />
                 </div>
               </div>
