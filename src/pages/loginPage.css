@@ -1,0 +1,15 @@
+.loginCard {
+  padding: 50px;
+}
+
+#materialCard {
+  padding: 0;
+  height: 80vh;
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+  align-content: center;
+}
+
+.loginForm {
+}
