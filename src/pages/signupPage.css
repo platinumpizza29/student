@@ -1,0 +1,12 @@
+.header01 {
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.signupImg {
+  width: 460px;
+  margin-top: 160px;
+  margin-left: 170px;
+}
