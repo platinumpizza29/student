@@ -1,15 +1,30 @@
-.loginCard {
-  padding: 50px;
-}
-
-#materialCard {
-  padding: 0;
-  height: 80vh;
-  width: 100%;
+.head {
   flex: 1;
   justify-content: center;
-  align-content: center;
+  text-align: center;
 }
 
-.loginForm {
+.wave {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+  padding: 0 2rem;
+}
+
+.img {
+  margin-top: 10vh;
+  height: 69vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
